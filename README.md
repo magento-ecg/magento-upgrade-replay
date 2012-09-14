@@ -1,4 +1,4 @@
 Magento-Upgrade-Replay
 ======================
 
-Multi Task way to do Magento Upgrade
+Multi-process way to do Magento Upgrade
