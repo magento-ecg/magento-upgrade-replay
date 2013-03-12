@@ -1,7 +1,7 @@
 Magento-Upgrade-Replay
 ======================
 
-This is prototype for multi-process Optimized Upgrade Replay from Magento 1.5 (1.11 EE) and lower to 1.6 (1.11 EE) and higher.
+This is prototype for multi-process Optimized Upgrade Replay from Magento 1.5 (1.10 EE) and lower to 1.6 (1.11 EE) and higher.
 In order to run optimized replay you need to run original upgrade in database with same structure.
 Replay script uses pdo_mysql.log to read queries and estimate execution time.
 
