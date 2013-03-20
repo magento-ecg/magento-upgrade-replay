@@ -7,6 +7,10 @@ Replay script uses pdo_mysql.log to read queries and estimate execution time.
 
 Disk may become bottleneck during upgrade replay.
 
+#### Warning
+* Was not tested with table prefixes
+* **THIS IS PROTOTTYPE**. Please make sure it works before running in production.
+
 #### Real life results
 * 1.9 EE -> 1.11 EE ==> Original upgrade ~34 hours vs Optimized Replay 4 hours
 * 1.4 CE -> 1.12 EE ==> Original upgrade ~15 hours vs Optimized Replay 2 hours
