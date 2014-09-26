@@ -279,6 +279,7 @@ class Upgrade_Replay {
             '/\s*(COMMENT|ENGINE|DEFAULT CHARACTER SET)(.*)/',
             '/\s*(ADD UNIQUE|ADD INDEX|ADD FULLTEXT|ADD PRIMARY KEY)(.*)/',
             '/\s*(ADD CONSTRAINT|DROP COLUMN)(.*)/',
+            '/\s*(DISABLE KEYS|ENABLE KEYS)(.*)/',
         );
         $q1Rank =  $q2Rank =  -1;
         foreach ($ranks as  $rank => $regex) {
